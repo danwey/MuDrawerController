@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/danwey/MuDrawerController.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "MuDrawerController/Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "MuDrawerController/Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
 
